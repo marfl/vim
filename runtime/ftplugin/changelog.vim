@@ -223,7 +223,8 @@ if &filetype == 'changelog'
   endfunction
 
   if exists(":NewChangelogEntry") != 2
-    noremap <buffer> <silent> <Leader>o :call <SID>new_changelog_entry('')<CR>
+    nnoremap <buffer> <silent> <Leader>o :<C-u>call <SID>new_changelog_entry('')<CR>
+    xnoremap <buffer> <silent> <Leader>o :<C-u>call <SID>new_changelog_entry('')<CR>
     command! -nargs=0 NewChangelogEntry call s:new_changelog_entry('')
   endif
 
