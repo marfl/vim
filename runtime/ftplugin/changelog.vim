@@ -1,7 +1,8 @@
 " Vim filetype plugin file
-" Language:         generic Changelog file
-" Maintainer:       Nikolai Weibull <now@bitwi.se>
-" Latest Revision:  2014-01-10
+" Language:             generic Changelog file
+" Maintainer:           Martin Florian <marfl@posteo.de>
+" Previous Maintainer:  Nikolai Weibull <now@bitwi.se>
+" Latest Revision:      2015-10-25
 " Variables:
 "   g:changelog_timeformat (deprecated: use g:changelog_dateformat instead) -
 "       description: the timeformat used in ChangeLog entries.
